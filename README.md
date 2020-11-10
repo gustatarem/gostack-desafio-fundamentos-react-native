@@ -26,14 +26,9 @@ Para isso, deixamos instalado no seu package.json uma dependência chamada `json
 
 - **`Exibir itens do carrinho`**: A página `Cart` exibe todos os itens do carrinho, junto com a quantidade, valor único, valor subtotal dos itens e total de todos os itens.
 
-- **`Aumentar quantidade de itens do carrinho`**: Em su página `Cart` permite que o usuário aumente a quantidade de itens do mesmo produto utilizando a função `increment` dentro do seu contexto em `/src/hooks/cart.tsx`.
+- **`Aumentar quantidade de itens do carrinho`**: A página `Cart` permite que o usuário aumente a quantidade de itens do mesmo produto utilizando a função `increment` de dentro do contexto `/src/hooks/cart.tsx`.
 
-**Dica**: Ao editar um item, quando for envia-lo para o backend, lembre de copiar os dados anteriores como o `available` e o `id`, ou eles serão  perdidos do seu arquivo server.json.
-
-- **`Diminuir quantidade de um item do carrinho`**: Em suapágina `Cart` permite que o usuário decremente a quantidade de itens do mesmo produto utilizando a função `decrement` dentro do seu contexto em `/src/hooks/cart.tsx`.
-
-**Dica**: Após; remover o item da sua API, lembre-se de remover ele também da listagem.
-- **`Exibir valor total dos itens no carrinho`**: Tanto na página `Dashboard`, quanto na página `Cart` é poss' visualizar o valor total de todos os itens que estão no seu carrinho.
+- **`Diminuir quantidade de um item do carrinho`**: A página `Cart` permite que o usuário decremente a quantidade de itens do mesmo produto utilizando a função `decrement` de dentro do contexto `/src/hooks/cart.tsx`.
 
 ## :computer: Instruções de instalação e teste
 
@@ -73,7 +68,6 @@ $ yarn android
 ```
 
 Para rodar os testes da aplicação:
-
 ```Bash
 # ../pasta-de-destino/gostack-desafio-fundamentos-react-native
 $ yarn test
